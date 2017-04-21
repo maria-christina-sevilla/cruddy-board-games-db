@@ -1,4 +1,4 @@
-console.log("JS good to go, sir!");
+// console.log("JS good to go, sir!");
 
 $(function() {
     // listen for a "submit" event for the edit page. the edit form will live

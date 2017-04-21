@@ -3,12 +3,14 @@
 
 
 
-<form id="edit-game" action="<%= '/game/' + name %>" method="PUT">
+<form id="edit-game" action="<%= '/game/' + game.name %>" method="PUT">
   <label for="name">Name:</label>
-  <input name="name" type="text" value="<%= name %>">
+  <input name="name" type="text hidden" value="<%= game.name %>">
+
 
   <label for="description">Description:</label>
   <textarea name="description" cols="30" rows="10"><%= description %></textarea>
 
   <input type="submit" value="Edit game!">
 </form>
+<!-- make sure form is passing the name, description, and input type hidden for id. -->

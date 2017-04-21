@@ -1,13 +1,16 @@
-<h1>
-  <%= name %>
+
+
+
+<h1> 
+  <%= game.name %> <!-- // game {name:'', id:''} -->
 </h1>
 
 <p>
-  <%= description %>
+  <%= game.description %>
 </p>
 
 <p>
-  <a href="<%= "/game/" + name + "/edit" %>">
+  <a href="<%= "/game/" + game.name + "/edit" %>">
     Edit Game
   </a>
 </p>
